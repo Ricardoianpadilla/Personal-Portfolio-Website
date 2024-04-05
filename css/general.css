@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', cursive;
+}
+:root {
+    --primary-color: #cccccc;
+    --secondary-color: #383838;
+    --tertiary-color: #2B2B2B;
+    --quaternary-color: #0D0D0D;
+    --hover-color:rgba(225,225,225,.3);
+}
+.nav ul {
+    margin: 0;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding: .5em;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: var(--hover-color);
+}
+.nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid var(--hover-color);
+}
+.nav li{
+    padding: 0 5%;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    background-color: var(--primary-color);
+}
+#navigation{
+    background: var( --quaternary-color);
+
+}
+.footer {
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+}

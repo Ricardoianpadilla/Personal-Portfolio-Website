@@ -1,0 +1,48 @@
+.top_page{
+
+    background-image: url("../images/homebackground.png");
+    background-size:120%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15%;
+    min-height: 0;
+    background-attachment: fixed;
+    color: black;
+    font-size: 2.2vw;
+    text-align: center;
+}
+.background_image{
+    background-image: url("../images/textblur.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding: 2em;
+}
+.title{
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.sub_text{
+    text-align: center;
+    margin: 1em 8em 5em;
+    font-size: 1.7vw;
+}
+.connect{
+    text-align: center;
+    font-size: 1.7vw;
+}
+.image_container {
+    width: 25%;
+    float: left;
+    margin-bottom: 3em;
+}
+.image {
+    width: 30%;
+}
+#connectTitle{
+    margin-bottom: 2em;
+}
