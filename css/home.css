@@ -1,34 +1,91 @@
+
 .top_page{
 
-    background-image: url("../images/homebackground.png");
-    background-size:120%;
+    background-image: url("../images/homebackground.webp");
     background-repeat: no-repeat;
+    background-size: 120%;
     margin-left: auto;
     margin-right: auto;
-    padding: 15%;
-    min-height: 0;
+    padding: 0%;
+    height: 100%;
     background-attachment: fixed;
     color: black;
     font-size: 2.2vw;
     text-align: center;
+    height: 57vw;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:20%;
+    background-color: rgb(95, 95, 95);
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+    z-index:5;
+    
+}
+.nav_direction{
+    display:flex;
+    flex-direction: row;
+    width:95%;
+}
+.nav_direction a{
+    display: flex;
+    gap: 0.4rem;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+
+}
+.nav_direction li{
+    list-style-type: none;
+    padding-left: 5%;
+
+
+}
+.nav_email{
+    display: flex;
+    width:5%;
+    margin-right: 2%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    align-items: center;
+}
+.navbar p{
+    margin:0%;
 }
 .background_image{
     background-image: url("../images/textblur.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:100%;
-    padding: 2em;
+    
+    background-size:65%;  
+    align-items: center;
+    align-content: center;
+    height: 240%;
+    width: 100%;
 }
+
 .title{
     font-weight: bolder;
 }
 h1{
-    font-size: 4vw;
+    font-size: 3vw;
+    
 
 }
 
+
 .sub_text{
     font-size: 2vw;
+    padding: 0;
+    margin: 0;
+    top: 0;
 }
 .connect{
     text-align: center;
@@ -38,6 +95,7 @@ h1{
     width: 25%;
     float: left;
     margin-bottom: 3em;
+
 }
 .image {
     width: 30%;
@@ -53,15 +111,33 @@ h1{
 .card{
     display:flex;
     flex-direction: row;
-    margin-bottom: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    /*this is used to tell how long the transition to the effect(hover) will take*/
+    transition: 0.5s;
+    background-color: #cfcece;
+    border-radius: 1%;
+    min-height: 30vh;
+}
+.spacer{
+    margin:5%;
+}
+.card:hover{
+    /* This is the effect given when hovering over card increases size by 1.08*/
+    transform:scale(1.08) 
+}
+a{
+    color: black;
+    text-decoration: none;
+    
 }
 .card_info_half{
     display:flex;
     flex-direction: column;
     text-align: left;
     width: 60%;
+    padding:2%;
 }
 .bubble_text_container{
     display:flex;
@@ -69,6 +145,7 @@ h1{
 }
 .card_site_half{
     width: 40%;
+    padding: 2%;
 }
 .website_container{
     width: 100%;
@@ -81,6 +158,7 @@ h1{
 .website_image{
     width: 100%;
 }
+
 .bubble_text_container{
     margin-top: auto;
     margin:2%;
@@ -103,7 +181,9 @@ h2{
     margin-top: 3%;
 }
 .card_info_half .bubble_text_container{
-    height: 15%;
+    height: 10%;
+    width: 140%;
+    margin-top: 5% ;
 }
 .card_info_half h4{
     margin: 0;
@@ -123,4 +203,23 @@ h2{
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+/*Page Fading*/
+div{
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 15% ;
+}
+
+@keyframes fade {
+from{
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+/*Anchor Link*/
+html{
+    scroll-behavior: smooth !important;
 }

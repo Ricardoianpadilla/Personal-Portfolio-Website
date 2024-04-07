@@ -14,9 +14,11 @@
 html, body{
     margin: 0;
     padding: 0;
+    
 
 }
-html{
+
+.page{
     background-color: var(--primary-color);
 }
 #navigation{
@@ -29,5 +31,40 @@ html{
     display:inline;
     text-align: center;
     width: 100%;
+}
+/* this is for the loading befor the page activated by loading.js*/
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    transition: opacity 0.75s, visibility 1.5s;
+}
+.loading-hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loading::after{
+    content:"";
+    width: 75px;
+    height: 75px;
+    border: 10px solid #b1b1b1;
+    border-top-color: #0D0D0D;
+    border-radius: 50%;
+    animation: loading 0.7s ease infinite;
+}
+@keyframes loading{
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
 }
 

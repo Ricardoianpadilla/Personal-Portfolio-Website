@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ricardoianpadilla.info/static/css/main.e1bf105d.css",
+    "main.js": "/ricardoianpadilla.info/static/js/main.13c71d37.js",
+    "static/media/Korean.mp4": "/ricardoianpadilla.info/static/media/Korean.625d4e1f6cc925ca0578.mp4",
+    "static/media/Mex.mp4": "/ricardoianpadilla.info/static/media/Mex.97f92f322892f601200f.mp4",
+    "static/media/New.mp4": "/ricardoianpadilla.info/static/media/New.e69e4db04548d51550cd.mp4",
+    "static/media/North.mp4": "/ricardoianpadilla.info/static/media/North.125aaeebd3f0fe758221.mp4",
+    "static/media/Z.mp4": "/ricardoianpadilla.info/static/media/Z.ea0d3688df18b2299714.mp4",
+    "static/media/home.mp4": "/ricardoianpadilla.info/static/media/home.99f2a3123ea3816a00f7.mp4",
+    "static/media/newz.jpg": "/ricardoianpadilla.info/static/media/newz.47bdf333492f98cfb6f5.jpg",
+    "static/media/north.jpg": "/ricardoianpadilla.info/static/media/north.fe705d97656a7326fe3b.jpg",
+    "static/media/about.jpg": "/ricardoianpadilla.info/static/media/about.11efb1ced36c017abe25.jpg",
+    "static/media/korea.jpg": "/ricardoianpadilla.info/static/media/korea.bba13ab9ce8ffcebba5f.jpg",
+    "static/media/europe.jpg": "/ricardoianpadilla.info/static/media/europe.1e49be94e0af4027ec5e.jpg",
+    "static/media/latin.jpg": "/ricardoianpadilla.info/static/media/latin.6da9bebadca8deac3178.jpg",
+    "static/media/logo.png": "/ricardoianpadilla.info/static/media/logo.1f0a816c92ff070459d6.png",
+    "index.html": "/ricardoianpadilla.info/index.html",
+    "main.e1bf105d.css.map": "/ricardoianpadilla.info/static/css/main.e1bf105d.css.map",
+    "main.13c71d37.js.map": "/ricardoianpadilla.info/static/js/main.13c71d37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1bf105d.css",
+    "static/js/main.13c71d37.js"
+  ]
+}
